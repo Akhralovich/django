@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5e5a7e-45c3-431b-8960-5bbd68caa67e" name="Changes" comment="add">
-      <change beforePath="$PROJECT_DIR$/shop/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/products/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/products/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/lexa555/Project/django/shop/shop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lexa555/Project/django/shop/shop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/shop/shop" />
@@ -137,7 +145,15 @@
       <workItem from="1677531123366" duration="364000" />
       <workItem from="1677531676383" duration="995000" />
       <workItem from="1677606713525" duration="1936000" />
-      <workItem from="1677608674908" duration="1321000" />
+      <workItem from="1677608674908" duration="1752000" />
+      <workItem from="1677610449601" duration="1457000" />
+      <workItem from="1677611937081" duration="1251000" />
+      <workItem from="1677613206531" duration="833000" />
+      <workItem from="1677614063030" duration="1442000" />
+      <workItem from="1677615524284" duration="1336000" />
+      <workItem from="1677685432366" duration="5987000" />
+      <workItem from="1677919412451" duration="2725000" />
+      <workItem from="1677922278689" duration="1788000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1677438824570</created>
@@ -153,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677607941722</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add">
+      <created>1677610042512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677610042512</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add">
+      <created>1677610095501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677610095501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
