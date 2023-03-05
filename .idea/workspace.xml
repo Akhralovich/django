@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5e5a7e-45c3-431b-8960-5bbd68caa67e" name="Changes" comment="add">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/products/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/products/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/products/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/products/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shop/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shop/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2M0wLoYjq8GsD5HwgGhMHXwzWQT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,7 +50,8 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -68,15 +67,14 @@
       <recent name="$PROJECT_DIR$/shop/shop" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="SERVER" type="Python.DjangoServer" factoryName="Django server">
+  <component name="RunManager" selected="Django Server.SERVER">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="POSTGRES_PASSWORD" value="django" />
-        <env name="DJANGO_SETTINGS_MODULE" value="shop.settings" />
+        <env name="SECRET_KEY" value="django" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
       <option name="SDK_NAME" value="Python 3.10 (django)" />
@@ -84,6 +82,52 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SERVER" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DJANGO_SETTINGS_MODULE" value="shop.settings" />
+        <env name="POSTGRES_PASSWORD" value="django" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="SECRET_KEY" value="django" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.10 (django)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
@@ -119,6 +163,10 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django Server.SERVER" />
+      <item itemvalue="Python.Unnamed" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -153,7 +201,12 @@
       <workItem from="1677615524284" duration="1336000" />
       <workItem from="1677685432366" duration="5987000" />
       <workItem from="1677919412451" duration="2725000" />
-      <workItem from="1677922278689" duration="1788000" />
+      <workItem from="1677922278689" duration="2037000" />
+      <workItem from="1677924336303" duration="3240000" />
+      <workItem from="1677928119895" duration="4906000" />
+      <workItem from="1677933279771" duration="4045000" />
+      <workItem from="1677937853438" duration="3242000" />
+      <workItem from="1678013114283" duration="1709000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1677438824570</created>
@@ -183,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677610095501</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add">
+      <created>1677924294918</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677924294918</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
